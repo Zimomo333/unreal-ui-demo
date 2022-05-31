@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "unreal-ui-next": "^1.4.5",
+    "unreal-ui-next": "^1.4.8",
     "vue": "^3.0.5"
   },
   "devDependencies": {

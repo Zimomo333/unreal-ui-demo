@@ -104,7 +104,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .menu_demo {
   width: 16rem;
   margin: 0 auto;

@@ -176,46 +176,44 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .form_demo {
   display: flex;
   justify-content: center;
+}
+.form_demo .login-container {
+  position: relative;
+  width: 20rem;
+  height: 21rem;
+  padding: 1.5rem 2rem 1rem;
+  border: 0.0625rem solid #d1d9e6;
+  border-radius: 0.55rem;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+}
+.form_demo .login-container .title {
+  margin: 0 0 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 
-  .login-container {
-    position: relative;
-    width: 20rem;
-    height: 21rem;
-    padding: 1.5rem 2rem 1rem;
-    border: 0.0625rem solid #d1d9e6;
-    border-radius: 0.55rem;
-    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
-
-    .title {
-      margin: 0 0 1.5rem;
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: 700;
-    }
-  }
-  .ur-input-group__prepend {
-    padding: 0 0.5rem;
-  }
-  .login_button {
-    width: 20rem;
-    display: block;
-    margin: 2rem auto 0;
-  }
-  .checkbox {
-    float: right;
-    margin: 0 .3rem 1.2rem 1rem;
-  }
-  .link {
-    display: flex;
-    justify-content: center;
-
-    a {
-      margin: 1.8rem .5rem;
-    }
-  }
+.form_demo .ur-input-group__prepend {
+  padding: 0 0.5rem;
+}
+.form_demo .login_button {
+  width: 20rem;
+  display: block;
+  margin: 2rem auto 0;
+}
+.form_demo .checkbox {
+  float: right;
+  margin: 0 0.3rem 1.2rem 1rem;
+}
+.form_demo .link {
+  display: flex;
+  justify-content: center;
+}
+.form_demo .link a {
+  margin: 1.8rem 0.5rem;
 }
 </style>
